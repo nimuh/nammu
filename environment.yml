@@ -26,4 +26,4 @@ dependencies:
   - wheel
   - cudnn
   - biopython
-prefix: /nfs5/PHARM/David_Lab/NIMA/my_conda_envs/grace_stack
+prefix: grace_stack
