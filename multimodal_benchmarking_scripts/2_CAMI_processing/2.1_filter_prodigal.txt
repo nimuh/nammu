@@ -1,0 +1,12 @@
+# Filter to contigs >=1000 bp first
+seqkit seq -m 1000 anonymous_gsa.fasta > contigs_min1kb.fasta
+
+# Then run prodigal
+prodigal -i contigs_min1kb.fasta \
+         -o genes.gff \
+         -a proteins.faa \
+         -d genes.fna \
+         -p meta \
+         -f gff
+
+         
