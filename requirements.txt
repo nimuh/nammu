@@ -33,9 +33,7 @@ importlib_metadata==8.7.1
 Jinja2==3.1.4
 joblib==1.5.3
 kiwisolver==1.4.9
-# Editable install with no version control (maglm==0.0.0)
--e /nfs6/PHARM/David_Lab/NIMA/mamba-mag
-mamba_ssm @ file:///nfs5/PHARM/David_Lab/NIMA/build_gh200/mamba
+mamba-ssm @ git+https://github.com/state-spaces/mamba.git
 markdown-it-py==4.0.0
 MarkupSafe==2.1.5
 matplotlib==3.10.8
