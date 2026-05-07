@@ -13,7 +13,24 @@ converting faa output to .csv format
 converting fna output to .csv format
 ### 1.5_diamond_run.sh 
 script to run DIAMOND (https://doi.org/10.1038/s41592-021-01101-x) against the KEGG prokaryotic database. Requires KEGG to run. 
-### mags_annotated_90.R
+### 1.6_mags_annotated_90.R
 filtering ORF annotation by diamond and formatting
-### mags_annotated_aa_fna.R 
+### 1.7_mags_annotated_aa_fna.R 
 ORF annotations via KEGG including ORFs in both amino acid and nucleic acid format
+
+## 2. CAMI processing
+In order to run the workflow for this task, the contigs and their corresponding taxa from sample 0 in 'simulated short read' from Critical Assessment of Metagenome Interpretation (CAMI) is required, and can be downloaded at https://cami-challenge.org. 
+
+### 2.1_filter_prodigal.txt 
+command used to filter contig file >1 Kbp and the command used to run prodigal against the updated filtered file
+### 2.2_prodigal_processing.py 
+script used to process prodigal output after open reading frame (ORF) predictions
+### 2.3 resolve_taxonomy.sh 
+script used to format and reconcile taxonomy of contigs 
+### 2.4_processing_prodigal_output.R 
+R script used to process prodigal output
+### 2.5_prodigal_output_plots.R
+Script to visualize contigs and their ORFs post processing 
+
+
+
