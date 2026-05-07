@@ -16,8 +16,10 @@ All training logic, can be initiated in run.sh
 Executes train.py. Provides and exampe of usage.
 
 ## Recreate environment
+```
 conda env create -f environment.yml
 conda activate nammu
 pip install -r requirements.txt
+```
 
 
