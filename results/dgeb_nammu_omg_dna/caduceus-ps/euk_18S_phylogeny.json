@@ -1,0 +1,89 @@
+{
+  "dgeb_version": "0.2.0",
+  "task": {
+    "id": "euk_18S_phylogeny",
+    "display_name": "18S Eukaryotic Phylogeny",
+    "description": "Evaluate on 18S Eukaryotic phylogeny distance correlation task.",
+    "modality": "dna",
+    "type": "eds",
+    "datasets": [
+      {
+        "path": "tattabio/euk_18S_sequences",
+        "revision": "5174cb3b2c5c46b61307fd1c2c08f5c432655196"
+      },
+      {
+        "path": "tattabio/euk_18S_distances",
+        "revision": "c4cea4fbb1185d08e0e01fd28ffb8b06a25025da"
+      }
+    ],
+    "primary_metric_id": "top_corr"
+  },
+  "model": {
+    "hf_name": "caduceus-ps",
+    "num_layers": 16,
+    "num_params": 7725312,
+    "embed_dim": 1536
+  },
+  "results": [
+    {
+      "layer_number": 15,
+      "layer_display_name": "15",
+      "metrics": [
+        {
+          "id": "cos_sim",
+          "display_name": "cos_sim",
+          "description": null,
+          "value": 0.2570440728175603
+        },
+        {
+          "id": "manhattan",
+          "display_name": "manhattan",
+          "description": null,
+          "value": 0.2648318053999651
+        },
+        {
+          "id": "euclidean",
+          "display_name": "euclidean",
+          "description": null,
+          "value": 0.26681639056183376
+        },
+        {
+          "id": "top_corr",
+          "display_name": "top_corr",
+          "description": null,
+          "value": 0.26681639056183376
+        }
+      ]
+    },
+    {
+      "layer_number": 7,
+      "layer_display_name": "7",
+      "metrics": [
+        {
+          "id": "cos_sim",
+          "display_name": "cos_sim",
+          "description": null,
+          "value": 0.3173531023150208
+        },
+        {
+          "id": "manhattan",
+          "display_name": "manhattan",
+          "description": null,
+          "value": 0.31307774604942756
+        },
+        {
+          "id": "euclidean",
+          "display_name": "euclidean",
+          "description": null,
+          "value": 0.30985990203107006
+        },
+        {
+          "id": "top_corr",
+          "display_name": "top_corr",
+          "description": null,
+          "value": 0.3173531023150208
+        }
+      ]
+    }
+  ]
+}

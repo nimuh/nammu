@@ -1,0 +1,89 @@
+{
+  "dgeb_version": "0.2.0",
+  "task": {
+    "id": "arch_16S_phylogeny",
+    "display_name": "16S Archaeal Phylogeny",
+    "description": "Evaluate on 16S Archaeal phylogeny distance correlation task.",
+    "modality": "dna",
+    "type": "eds",
+    "datasets": [
+      {
+        "path": "tattabio/arch_16S_sequences",
+        "revision": "e0f0b5d5bd4b08a329b08c2bf4cc800781dff7f0"
+      },
+      {
+        "path": "tattabio/arch_16S_distances",
+        "revision": "b0356b632a954be70cefd57e3a02e7e1ccd34408"
+      }
+    ],
+    "primary_metric_id": "top_corr"
+  },
+  "model": {
+    "hf_name": "caduceus-ps",
+    "num_layers": 16,
+    "num_params": 7725312,
+    "embed_dim": 1536
+  },
+  "results": [
+    {
+      "layer_number": 15,
+      "layer_display_name": "15",
+      "metrics": [
+        {
+          "id": "cos_sim",
+          "display_name": "cos_sim",
+          "description": null,
+          "value": 0.09109829907538103
+        },
+        {
+          "id": "manhattan",
+          "display_name": "manhattan",
+          "description": null,
+          "value": 0.09841530810742365
+        },
+        {
+          "id": "euclidean",
+          "display_name": "euclidean",
+          "description": null,
+          "value": 0.0972107276297172
+        },
+        {
+          "id": "top_corr",
+          "display_name": "top_corr",
+          "description": null,
+          "value": 0.09841530810742365
+        }
+      ]
+    },
+    {
+      "layer_number": 7,
+      "layer_display_name": "7",
+      "metrics": [
+        {
+          "id": "cos_sim",
+          "display_name": "cos_sim",
+          "description": null,
+          "value": 0.07049821268669972
+        },
+        {
+          "id": "manhattan",
+          "display_name": "manhattan",
+          "description": null,
+          "value": 0.14092031653391376
+        },
+        {
+          "id": "euclidean",
+          "display_name": "euclidean",
+          "description": null,
+          "value": 0.12924127500953858
+        },
+        {
+          "id": "top_corr",
+          "display_name": "top_corr",
+          "description": null,
+          "value": 0.14092031653391376
+        }
+      ]
+    }
+  ]
+}

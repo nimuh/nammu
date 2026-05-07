@@ -1,0 +1,49 @@
+{
+  "dgeb_version": "0.2.0",
+  "task": {
+    "id": "ecoli_rna_clustering",
+    "display_name": "E.coli RNA Clustering",
+    "description": "Evaluate on RNA clustering task for sRNA/tRNA/rRNA segments in E.coli K-12.",
+    "modality": "dna",
+    "type": "clustering",
+    "datasets": [
+      {
+        "path": "tattabio/e_coli_rnas",
+        "revision": "4c134bb4bdb2b0ef1d59fe10797efdfeaf318de6"
+      }
+    ],
+    "primary_metric_id": "v_measure"
+  },
+  "model": {
+    "hf_name": "gLM2-150M",
+    "num_layers": 30,
+    "num_params": 152433280,
+    "embed_dim": 640
+  },
+  "results": [
+    {
+      "layer_number": 14,
+      "layer_display_name": "14",
+      "metrics": [
+        {
+          "id": "v_measure",
+          "display_name": "v_measure",
+          "description": null,
+          "value": 0.10366643020778471
+        }
+      ]
+    },
+    {
+      "layer_number": 29,
+      "layer_display_name": "29",
+      "metrics": [
+        {
+          "id": "v_measure",
+          "display_name": "v_measure",
+          "description": null,
+          "value": 0.06622965416732456
+        }
+      ]
+    }
+  ]
+}

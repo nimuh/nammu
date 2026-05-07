@@ -1,0 +1,89 @@
+{
+  "dgeb_version": "0.2.0",
+  "task": {
+    "id": "bac_16S_phylogeny",
+    "display_name": "16S Bacterial Phylogeny",
+    "description": "Evaluate on 16S Bacterial phylogeny distance correlation task.",
+    "modality": "dna",
+    "type": "eds",
+    "datasets": [
+      {
+        "path": "tattabio/bac_16S_sequences",
+        "revision": "efde1456b86748909cbcfecb07d783756d570aa3"
+      },
+      {
+        "path": "tattabio/bac_16S_distances",
+        "revision": "5c8ba5dfa600bb930d34af2fbc2b17f0acab62d3"
+      }
+    ],
+    "primary_metric_id": "top_corr"
+  },
+  "model": {
+    "hf_name": "caduceus-ps",
+    "num_layers": 16,
+    "num_params": 7725312,
+    "embed_dim": 1536
+  },
+  "results": [
+    {
+      "layer_number": 15,
+      "layer_display_name": "15",
+      "metrics": [
+        {
+          "id": "cos_sim",
+          "display_name": "cos_sim",
+          "description": null,
+          "value": 0.38083542813876964
+        },
+        {
+          "id": "manhattan",
+          "display_name": "manhattan",
+          "description": null,
+          "value": 0.36602702299074336
+        },
+        {
+          "id": "euclidean",
+          "display_name": "euclidean",
+          "description": null,
+          "value": 0.3680563219810282
+        },
+        {
+          "id": "top_corr",
+          "display_name": "top_corr",
+          "description": null,
+          "value": 0.38083542813876964
+        }
+      ]
+    },
+    {
+      "layer_number": 7,
+      "layer_display_name": "7",
+      "metrics": [
+        {
+          "id": "cos_sim",
+          "display_name": "cos_sim",
+          "description": null,
+          "value": 0.24336676473916588
+        },
+        {
+          "id": "manhattan",
+          "display_name": "manhattan",
+          "description": null,
+          "value": 0.3086318555235732
+        },
+        {
+          "id": "euclidean",
+          "display_name": "euclidean",
+          "description": null,
+          "value": 0.3061884684515163
+        },
+        {
+          "id": "top_corr",
+          "display_name": "top_corr",
+          "description": null,
+          "value": 0.3086318555235732
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "dgeb_version": "0.2.0",
+  "task": {
+    "id": "rpob_bac_dna_phylogeny",
+    "display_name": "RpoB Bacterial Phylogeny",
+    "description": "Evaluate on RpoB phylogeny distance correlation task for Bacterial DNA sequences.",
+    "modality": "dna",
+    "type": "eds",
+    "datasets": [
+      {
+        "path": "tattabio/rpob_bac_dna_phylogeny_sequences",
+        "revision": "8e137d3fb8886d8739ce08d1918745444c7d30d6"
+      },
+      {
+        "path": "tattabio/rpob_bac_dna_phylogeny_distances",
+        "revision": "67339e271b2a1602208153d53d70d35ba6fa8876"
+      }
+    ],
+    "primary_metric_id": "top_corr"
+  },
+  "model": {
+    "hf_name": "gLM2-150M",
+    "num_layers": 30,
+    "num_params": 152433280,
+    "embed_dim": 640
+  },
+  "results": [
+    {
+      "layer_number": 14,
+      "layer_display_name": "14",
+      "metrics": [
+        {
+          "id": "cos_sim",
+          "display_name": "cos_sim",
+          "description": null,
+          "value": 0.09256062173125156
+        },
+        {
+          "id": "manhattan",
+          "display_name": "manhattan",
+          "description": null,
+          "value": 0.10569655064617174
+        },
+        {
+          "id": "euclidean",
+          "display_name": "euclidean",
+          "description": null,
+          "value": 0.10815971133135767
+        },
+        {
+          "id": "top_corr",
+          "display_name": "top_corr",
+          "description": null,
+          "value": 0.10815971133135767
+        }
+      ]
+    },
+    {
+      "layer_number": 29,
+      "layer_display_name": "29",
+      "metrics": [
+        {
+          "id": "cos_sim",
+          "display_name": "cos_sim",
+          "description": null,
+          "value": 0.07750986672936286
+        },
+        {
+          "id": "manhattan",
+          "display_name": "manhattan",
+          "description": null,
+          "value": 0.10559686965764646
+        },
+        {
+          "id": "euclidean",
+          "display_name": "euclidean",
+          "description": null,
+          "value": 0.10446756669042749
+        },
+        {
+          "id": "top_corr",
+          "display_name": "top_corr",
+          "description": null,
+          "value": 0.10559686965764646
+        }
+      ]
+    }
+  ]
+}

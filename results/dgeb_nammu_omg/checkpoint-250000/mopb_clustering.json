@@ -1,0 +1,49 @@
+{
+  "dgeb_version": "0.2.0",
+  "task": {
+    "id": "mopb_clustering",
+    "display_name": "MopB Clustering",
+    "description": "Evaluate on MopB clustering task.",
+    "modality": "protein",
+    "type": "clustering",
+    "datasets": [
+      {
+        "path": "tattabio/mopb_clustering",
+        "revision": "eed4bfff9c5bd2dc2500c50757bfcb90425d999a"
+      }
+    ],
+    "primary_metric_id": "v_measure"
+  },
+  "model": {
+    "hf_name": "models/bimamba_contig_big/checkpoint-250000",
+    "num_layers": 18,
+    "num_params": 167549952,
+    "embed_dim": 1024
+  },
+  "results": [
+    {
+      "layer_number": 9,
+      "layer_display_name": "9",
+      "metrics": [
+        {
+          "id": "v_measure",
+          "display_name": "v_measure",
+          "description": null,
+          "value": 0.8213553185584787
+        }
+      ]
+    },
+    {
+      "layer_number": 17,
+      "layer_display_name": "17",
+      "metrics": [
+        {
+          "id": "v_measure",
+          "display_name": "v_measure",
+          "description": null,
+          "value": 0.755132707810658
+        }
+      ]
+    }
+  ]
+}
