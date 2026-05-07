@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export HF_HOME=/nfs5/PHARM/David_Lab/NIMA/data
-
 python train.py \
     --data_path      tattabio/OMG             \
     --model_dir      TEST                     \
