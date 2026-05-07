@@ -32,5 +32,10 @@ R script used to process prodigal output
 ### 2.5_prodigal_output_plots.R
 Script to visualize contigs and their ORFs post processing 
 
+## benchmark.py 
+script used for benchmarking across tasks 
+
+## create_mags.py
+script used to reassemble contigs into mixed-modality schemes 
 
 
