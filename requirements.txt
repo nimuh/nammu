@@ -1,0 +1,103 @@
+accelerate==1.12.0
+aiohappyeyeballs==2.6.1
+aiohttp==3.13.3
+aiosignal==1.4.0
+annotated-types==0.7.0
+anyio==4.12.1
+attrs==25.4.0
+biopython @ file:///home/conda/feedstock_root/build_artifacts/biopython_1768646502356/work
+certifi==2026.1.4
+charset-normalizer==2.1.1
+click==8.3.1
+contourpy==1.3.3
+cuda-bindings @ file:///home/conda/feedstock_root/build_artifacts/cuda-python-split_1766083117043/work/cuda_bindings
+cuda-pathfinder @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_cuda-pathfinder_1764891530/work/cuda_pathfinder
+cuda-python @ file:///home/conda/feedstock_root/build_artifacts/cuda-python-split_1766082932119/work/cuda_python
+cycler==0.12.1
+datasets==4.5.0
+dgeb==0.2.0
+dill==0.4.0
+einops==0.8.1
+evaluate==0.4.6
+filelock==3.20.3
+fonttools==4.61.1
+frozenlist==1.8.0
+fsspec==2025.10.0
+h11==0.16.0
+hf-xet==1.2.0
+httpcore==1.0.9
+httpx==0.28.1
+huggingface-hub==0.34.0
+idna==3.11
+importlib_metadata==8.7.1
+Jinja2==3.1.4
+joblib==1.5.3
+kiwisolver==1.4.9
+# Editable install with no version control (maglm==0.0.0)
+-e /nfs6/PHARM/David_Lab/NIMA/mamba-mag
+mamba_ssm @ file:///nfs5/PHARM/David_Lab/NIMA/build_gh200/mamba
+markdown-it-py==4.0.0
+MarkupSafe==2.1.5
+matplotlib==3.10.8
+mdurl==0.1.2
+mpmath==1.3.0
+multidict==6.7.0
+multiprocess==0.70.18
+networkx==3.3
+ninja==1.11.1.4
+numpy==2.1.2
+nvidia-cublas-cu11==11.11.3.6
+nvidia-cuda-cupti-cu11==11.8.87
+nvidia-cuda-nvrtc-cu11==11.8.89
+nvidia-cuda-runtime-cu11==11.8.89
+nvidia-cudnn-cu11==9.1.0.70
+nvidia-cufft-cu11==10.9.0.58
+nvidia-curand-cu11==10.3.0.86
+nvidia-cusolver-cu11==11.4.1.48
+nvidia-cusparse-cu11==11.7.5.86
+nvidia-nccl-cu11==2.21.5
+nvidia-nvtx-cu11==11.8.86
+packaging==25.0
+pandas==2.3.3
+pillow==11.0.0
+prettytable==3.17.0
+propcache==0.4.1
+psutil==7.2.1
+pyarrow==22.0.0
+pybind11 @ file:///D:/bld/bld/rattler-build_pybind11_1755953378/work
+pybind11-global @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pybind11-global_1755953338/work
+pydantic==2.12.5
+pydantic_core==2.41.5
+Pygments==2.20.0
+pyparsing==3.3.1
+python-dateutil==2.9.0.post0
+pytrec_eval-terrier==0.5.10
+pytz==2025.2
+PyYAML==6.0.3
+regex @ file:///home/conda/feedstock_root/build_artifacts/regex_1768558574331/work
+requests==2.33.1
+rich==15.0.0
+rmm @ file:///tmp/conda-bld-output/bld/rattler-build_rmm/work/python/rmm
+safetensors==0.7.0
+scikit-learn==1.8.0
+scipy==1.17.0
+seaborn==0.13.2
+shellingham==1.5.4
+six==1.17.0
+sympy==1.14.0
+threadpoolctl==3.6.0
+tokenizers==0.22.2
+-e git+https://github.com/pytorch/pytorch@24af852f763a1b6cb66c48dad9fce31b0ab9d0ff#egg=torch
+tqdm==4.67.1
+transformer_engine_cu12==2.11.0
+transformers==4.57.5
+triton @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_triton_1763015311/work
+typer-slim==0.21.1
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+tzdata==2025.3
+urllib3==1.26.13
+wcwidth==0.2.14
+xxhash==3.6.0
+yarl==1.22.0
+zipp==3.23.0

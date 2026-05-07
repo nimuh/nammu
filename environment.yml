@@ -1,0 +1,29 @@
+name: grace_stack
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - cmake
+  - ninja
+  - pkg-config
+  - openblas
+  - gcc_linux-aarch64=12
+  - gxx_linux-aarch64=12
+  - sysroot_linux-aarch64
+  - triton
+  - regex
+  - mpmath
+  - rust
+  - turm
+  - nodejs[version='>=20.17']
+  - git-lfs
+  - cuda-version=12
+  - rmm
+  - pybind11
+  - packaging
+  - setuptools
+  - wheel
+  - cudnn
+  - biopython
+prefix: /nfs5/PHARM/David_Lab/NIMA/my_conda_envs/grace_stack
