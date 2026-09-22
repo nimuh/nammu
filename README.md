@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="nammu-mascot.svg" width="320" alt="Nammu">
+  <img src="nammu-mascot.svg" width="400" alt="Nammu">
 </p>
 
 ## Usage
