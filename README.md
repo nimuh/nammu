@@ -9,6 +9,7 @@
 ```python
 from transformers import AutoModel, AutoTokenizer
 
+sequence = "<+>MLKTLMPA<->acgtacgt"
 model = AutoModel.from_pretrained("nazbijari/nammu", trust_remote_code=True)
 tokenizer = AutoTokenizer.from_pretrained("nazbijari/nammu", trust_remote_code=True)
 ```
