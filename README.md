@@ -2,8 +2,10 @@
 
 ## Use model through HuggingFace
 ```python
-from transformers import Nammu
-model = Nammu.from_pretrained("nazbijari/nammu", device_map="auto")
+from transformers import AutoModel, AutoTokenizer
+
+model = AutoModel.from_pretrained("nazbijari/nammu", trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained("nazbijari/nammu", trust_remote_code=True)
 ```
 
 ## Recreate environment
