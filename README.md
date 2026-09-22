@@ -20,6 +20,8 @@ conda activate nammu
 pip install -r requirements.txt
 ```
 
+If installing mamba-ssm or causal-conv-1d breaks: Installing a direct build wheel that is specific to your hardware and software specifications with pip is what we found to work.
+
 # Description
 Nammu is a mixed-modality genomic language model trained with bidirectional Mamba-1 blocks on TattaBio's OMG database. For details please see paper here: https://www.biorxiv.org/content/10.64898/2026.07.07.736993v1
 
