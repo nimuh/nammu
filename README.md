@@ -1,8 +1,6 @@
-# nammu
-
 
 <p align="center">
-  <img src="nammu-mascot.svg" width="400" alt="Nammu">
+  <img src="nammu-mascot.svg" width="2000" height="2000" alt="Nammu">
 </p>
 
 ## Usage
