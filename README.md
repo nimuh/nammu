@@ -1,7 +1,7 @@
 # nammu
 
 ## Use model through HuggingFace
-```
+```python
 from transformers import Nammu
 model = Nammu.from_pretrained("nazbijari/nammu", device_map="auto")
 ```
@@ -22,7 +22,7 @@ All training logic, can be initiated in run.sh
 Executes train.py. Provides and exampe of usage.
 
 ## Recreate environment
-```
+```bash
 conda env create -f environment.yml
 conda activate nammu
 pip install -r requirements.txt
