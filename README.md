@@ -5,7 +5,7 @@
   <img src="mascot.png" width="320" alt="Nammu">
 </p>
 
-## Use model through HuggingFace
+## Usage
 ```python
 from transformers import AutoModel, AutoTokenizer
 
