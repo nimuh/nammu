@@ -1,5 +1,11 @@
 # nammu
 
+## Use model through HuggingFace
+```
+from transformers import Nammu
+model = Nammu.from_pretrained("nazbijari/nammu", device_map="auto")
+```
+
 ## maglm
 Code base containing model definitions for Nammu and other models compared against
 
