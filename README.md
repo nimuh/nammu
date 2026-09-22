@@ -1,5 +1,7 @@
 # nammu
 
+![Nammu](assets/nammu-mascot.svg)
+
 ## Use model through HuggingFace
 ```python
 from transformers import AutoModel, AutoTokenizer
