@@ -7,7 +7,7 @@
 
 ## Usage
 ```python
-rom transformers import AutoModel, AutoTokenizer
+from transformers import AutoModel, AutoTokenizer
 
 # You can structure your sequence with strand tokens like this or provide protein or nucleotide sequences
 # as inputs.
