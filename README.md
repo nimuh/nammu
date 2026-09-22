@@ -7,14 +7,17 @@
 
 ## Usage
 ```python
-from transformers import AutoModel, AutoTokenizer
+rom transformers import AutoModel, AutoTokenizer
 
 # You can structure your sequence with strand tokens like this or provide protein or nucleotide sequences
 # as inputs.
 sequence_example_1 = "<+>MLKTLMPA<->acgtacgt"
 
-model = AutoModel.from_pretrained("nazbijari/nammu", trust_remote_code=True)
+model = AutoModel.from_pretrained("nazbijari/nammu", trust_remote_code=True).cuda()
 tokenizer = AutoTokenizer.from_pretrained("nazbijari/nammu", trust_remote_code=True)
+
+encoding = tokenizer([sequence_example_1], return_tensors='pt')
+out = model(encoding.input_ids.to('cuda'))
 ```
 
 ## Recreate environment
