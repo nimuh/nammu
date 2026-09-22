@@ -1,6 +1,9 @@
 # nammu
 
-![Nammu](assets/nammu-mascot.svg)
+
+<p align="center">
+  <img src="mascot.png" width="320" alt="Nammu">
+</p>
 
 ## Use model through HuggingFace
 ```python
