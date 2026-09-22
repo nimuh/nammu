@@ -29,7 +29,7 @@ If installing mamba-ssm or causal-conv-1d breaks: Installing a direct build whee
 # Description
 Nammu is a mixed-modality genomic language model trained with bidirectional Mamba-1 blocks on TattaBio's OMG database. For details please see paper here: https://www.biorxiv.org/content/10.64898/2026.07.07.736993v1
 
-## Models currently available through HuggingFace
+## Models
 | Model | Description | Link |
 | --- | --- | --- |
 | `nazbijari/nammu` | Nammu trained on proteins first for 500K steps, contigs second for 250K steps. BiMamba used is adopted from Caduceus but adds an extra residual connection outside the BiMamba block. | https://huggingface.co/nazbijari/nammu |
