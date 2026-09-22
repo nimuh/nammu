@@ -21,7 +21,7 @@ Nammu is a mixed-modality genomic language model trained with bidirectional Mamb
 ## Models currently available through HuggingFace
 | Model | Description | Link |
 | --- | --- | --- |
-| `nazbijari/nammu` | Nammu trained on proteins first for 500K steps, contigs second for 250K steps. | https://huggingface.co/nazbijari/nammu |
+| `nazbijari/nammu` | Nammu trained on proteins first for 500K steps, contigs second for 250K steps. BiMamba used is adopted from Caduceus but adds an extra residual connection outside the BiMamba block. | https://huggingface.co/nazbijari/nammu |
 
 
 ## maglm
