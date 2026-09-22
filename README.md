@@ -18,6 +18,12 @@ pip install -r requirements.txt
 # Description
 Nammu is a mixed-modality genomic language model trained with bidirectional Mamba-1 blocks on TattaBio's OMG database. For details please see paper here: https://www.biorxiv.org/content/10.64898/2026.07.07.736993v1
 
+## Models currently available through HuggingFace
+| Model | Description | Link |
+| --- | --- | --- |
+| `nazbijari/nammu` | Nammu trained on proteins first, contigs second | https://huggingface.co/nazbijari/nammu |
+
+
 ## maglm
 Code base containing model definitions for Nammu and other models compared against
 
